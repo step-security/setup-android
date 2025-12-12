@@ -23,7 +23,7 @@
     "android"
   ],
   "author": "step-security",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@actions/tool-cache": "^2.0.1",
