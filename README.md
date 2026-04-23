@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # setup-android
 
 ![Build & Test](https://github.com/step-security/setup-android/workflows/Build%20&%20Test/badge.svg)
