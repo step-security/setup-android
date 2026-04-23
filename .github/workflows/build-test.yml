@@ -72,7 +72,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ${{ github.actor == 'dependabot[bot]' && fromJSON('["ubuntu-24.04"]') || fromJSON('["ubuntu-24.04", "ubuntu-22.04", "macos-14", "windows-2022", "windows-2019"]') }}
+        os: ${{ github.actor == 'dependabot[bot]' && fromJSON('["ubuntu-24.04"]') || fromJSON('["ubuntu-24.04", "ubuntu-22.04", "macos-14", "windows-2022", "windows-2025"]') }}
         cmdline-tools-version:
           - 12266719
           - 11479570
