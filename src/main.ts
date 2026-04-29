@@ -234,7 +234,6 @@ async function run(): Promise<void> {
   core.addPath(path.join(ANDROID_SDK_ROOT, 'platform-tools'))
 
   core.debug('add matchers')
-  // eslint-disable-next-line no-console
   console.log(`##[add-matcher]${path.join(__dirname, '..', 'matchers.json')}`)
 }
 
