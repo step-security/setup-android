@@ -34,7 +34,7 @@ steps:
     distribution: 'temurin'
 
 - name: Setup Android SDK
-  uses: step-security/setup-android@v3
+  uses: step-security/setup-android@v4
 
 - name: Build SampleApplication
   run: ./gradlew --no-daemon build
@@ -49,7 +49,7 @@ Additional packages can be installed at a later time by calling sdkmanager manua
 
 ```yaml
 - name: Setup Android SDK
-  uses: step-security/setup-android@v3
+  uses: step-security/setup-android@v4
   with:
     packages: ''
 
@@ -68,7 +68,7 @@ By default, setup-android installs version 14742923 (short version 20.0).
 To install a different version, call setup-android with desired long version as the input parameter `cmdline-tools-version`:
 ```yaml
 - name: Setup Android SDK
-  uses: step-security/setup-android@v3
+  uses: step-security/setup-android@v4
   with:
     cmdline-tools-version: 8512546
 ```
