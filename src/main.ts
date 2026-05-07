@@ -8,6 +8,8 @@ import * as os from 'os'
 
 function getVersionShort(versionLong: string): string {
   switch (versionLong) {
+    case '14742923':
+      return '20.0'
     case '12266719':
       return '16.0'
     case '11479570':
@@ -234,7 +236,6 @@ async function run(): Promise<void> {
   core.addPath(path.join(ANDROID_SDK_ROOT, 'platform-tools'))
 
   core.debug('add matchers')
-  // eslint-disable-next-line no-console
   console.log(`##[add-matcher]${path.join(__dirname, '..', 'matchers.json')}`)
 }
 
