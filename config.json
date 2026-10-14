@@ -1,0 +1,17 @@
+{
+  "$comment": "Managed automatically when syncing with upstream. Do not edit by hand.",
+  "schema_version": 1,
+  "onboarding_type": "copied",
+  "action_type": "node",
+  "upstream": {
+    "repository": "android-actions/setup-android",
+    "synced_tag": "v4.0.4",
+    "synced_commit": "be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd",
+    "archived": false
+  },
+  "build": {
+    "package_manager": "npm@11.19.0",
+    "node_version": "24",
+    "script": "all"
+  }
+}
